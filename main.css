@@ -1,0 +1,236 @@
+                    .opt {
+                        float: right;
+                        font-size: 15px;
+                        font-weight: bold;
+                        padding: 10px;
+                        background-color: #a04000;
+                        color: #f0b27a;
+                        border: 2px;
+                        border-radius: 15px;
+                        margin: 5px;
+                    }
+                    
+                    .opt:hover {
+                        background-color: white;
+                    }
+                    
+                    .intro {
+                        background-color: #a04000;
+                        font-size: 15px;
+                        color: #f0b27a;
+                        border: solid;
+                        border-radius: 20px;
+                        padding: 10px 10px 90px 10px;
+                        margin: 0;
+                    }
+                    
+                    body {
+                        background-color: #f8c471;
+                    }
+                    
+                    .imgIntro {
+                        border: solid;
+                        border-radius: 20px;
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        float: right;
+                        margin-top: -15px;
+                    }
+                    
+                    .roof {
+                        font-size: 30px;
+                        color: #f8c471;
+                        margin-top: -30px;
+                    }
+                    
+                    .roof {
+                        font-size: 50px;
+                    }
+                    
+                    .des {
+                        font-size: 25px;
+                    }
+                    
+                    .menu {
+                        font-size: 40px;
+                        color: #a04000;
+                        font-style: oblique;
+                        margin-left: 50px;
+                    }
+                    
+                    .addrarab {
+                        float: right;
+                        font-size: 14px;
+                        font-weight: bold;
+                        font-style: italic;
+                        color: white;
+                        background-color: #641e16;
+                        border: solid;
+                        border-radius: 15px 50px 20px;
+                        padding: 10px 15px 10px 10px;
+                    }
+                    
+                    .addreng {
+                        font-size: 15px;
+                        font-weight: bold;
+                        font-style: italic;
+                        color: white;
+                        background-color: #641e16;
+                        border: solid;
+                        border-radius: 20px 50px 25px;
+                        padding: 10px 25px 5px 10px;
+                        float: left;
+                    }
+                    
+                    .menimg {
+                        margin: 10px;
+                        padding: 0;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-around;
+                        float: left;
+                    }
+                    
+                    .menname {
+                        color: #a04000;
+                        font-size: 20px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        float: left;
+                    }
+                    
+                    .menprice {
+                        color: #641e16;
+                    }
+                    
+                    .img1 {
+                        border: solid;
+                        border-radius: 20px;
+                        margin: 10px;
+                        direction: left;
+                    }
+                    
+                    .img2 {
+                        border: solid;
+                        border-radius: 20px;
+                        margin: 10px;
+                        float: left;
+                    }
+                    
+                    .img3 {
+                        border: solid;
+                        border-radius: 20px;
+                        margin: 10px;
+                        float: left;
+                    }
+                    
+                    .img4 {
+                        border: solid;
+                        border-radius: 20px;
+                        margin: 10px;
+                        float: left;
+                    }
+                    
+                    .img5 {
+                        border: solid;
+                        border-radius: 20px;
+                        margin: 10px;
+                        float: left;
+                    }
+                    
+                    .foodimg {
+                        border: solid;
+                        border-radius: 20px;
+                        margin: 10px;
+                        float: left;
+                    }
+                    
+                    .name {
+                        color: #a04000;
+                        font-size: 25px;
+                        font-weight: bold;
+                        margin-left: 10px;
+                    }
+                    
+                    .order {
+                        background-color: #641e16;
+                        color: white;
+                        font-size: 10px;
+                        font-weight: bold;
+                        border: solid;
+                        border-radius: 15px;
+                        padding: 10px;
+                        margin: 5px;
+                    }
+                    
+                    .order:hover {
+                        background-color: white;
+                        color: #f0b27a;
+                    }
+                    
+                    .food {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-around;
+                        align-items: center;
+                        padding-right: 50px;
+                    }
+                    
+                    .second {
+                        margin-right: 50px;
+                        padding-right: 30px;
+                    }
+                    
+                    .first {
+                        margin-right: 50px;
+                        padding-right: 30px;
+                    }
+                    
+                    .third {
+                        margin-right: 0px;
+                        padding-right: 0px;
+                    }
+                    
+                    .more {
+                        background-color: #6e2c00;
+                        color: white;
+                        font-size: 20px;
+                        font-weight: bold;
+                        border: solid #6e2c00;
+                        border-radius: 15px;
+                        padding: 10px 20px;
+                        float: right;
+                        margin-right: -150px;
+                        margin-top: -370px;
+                    }
+                    
+                    .more:hover {
+                        background-color: white;
+                        color: #f0b27a;
+                    }
+                    
+                    .sndselection {
+                        margin-bottom: -1000px;
+                    }
+                    
+                    @media screen and (max-width: 768px) {
+                        body {
+                            font-size: 14px;
+                        }
+                        .roof {
+                            font-size: 28px;
+                        }
+                        .des {
+                            font-size: 16px;
+                        }
+                        .name {
+                            font-size: 20px;
+                        }
+                        .disc {
+                            font-size: 13px;
+                        }
+                        .price {
+                            font-size: 16px;
+                        }
+                    }
